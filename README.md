@@ -1,6 +1,6 @@
 # JEE_IOC_PRINCIPE
 
-This sample gives an idea how IOC (Inversion Of Control) and DI (Dependencey Injection) are working using frameworks like Spring Framework or EJB, it gives you how all that frameworks can facilitate and manage a couple hundreds of dependencies in a real-life applications.
+This sample gives an idea how IOC (Inversion Of Control) and DI (Dependencey Injection) are working using frameworks like Spring Framework or EJB, it show you how all that frameworks can facilitate and manage a couple hundreds of dependencies in a real-life applications.
 
 The sample start by using a static method (Presentation class) and it's based on injecting dependencies using the static way, so we can instanciate the class which we would like to use in the business layer. 
 
