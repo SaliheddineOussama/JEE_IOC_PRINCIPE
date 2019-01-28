@@ -4,4 +4,4 @@ This sample gives an idea how IOC (Inversion Of Control) and DI (Dependencey Inj
 
 The sample start by using a static method (Presentation class) and it's based on injecting dependencies using the static way, so we can instanciate the class which we would like to use in the business layer. 
 
-The Presentation class (PresentationV2) implements a new strategy to inject those dependencies into the Business Layer, and it's based on a file (Place the file into the source /src if you want to get the result), so we read the lines on the file and we can get those dependencies, actually we can get the same results by using Spring by reading on config.xml file or using annotations.
+The Presentation class (PresentationV2) implements a new strategy to inject those dependencies into the Business Layer, and it's based on a file (Place the file into the source /src if you want to get the result), so by reading the lines on the file using scanner we can get those dependencies, actually we can get the same results by using Spring by reading on config.xml file or using annotations.
